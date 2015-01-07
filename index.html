@@ -1,0 +1,231 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Buffalo Niagara Cricket Club</title>
+		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/jquery.min.js"></script>
+		 <!-- Custom Theme files -->
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+   		 <!-- Custom Theme files -->
+   		 <!---- start-smoth-scrolling---->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+		 <!---- start-smoth-scrolling---->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		<!----webfonts--->
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+		<!---//webfonts--->
+		<!----start-top-nav-script---->
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+		<!----//End-top-nav-script---->
+	</head>
+	<body>
+		<!----- start-header---->
+			<div class="quote text-center">
+				<div class="container">	
+					 <nav class="top-nav">
+						<ul class="top-nav">
+							<li class="active"><a href="#home" class="scroll">About</a><span> </span></li>
+							<li><a href="#work" class="scroll">Sponsors</a></li>
+							<li><a href="#contact" class="scroll">Contact</a></li>
+						</ul>
+						<a href="#" id="pull"><img src="images/nav-icon.png" title="menu" /></a>
+					</nav>
+				</div>
+			</div>		
+			<div id="home" class="header">
+					<div class="top-header">
+						<div class="container">
+						<div class="logo">
+							<a href="#"><img src="images/logo.png" title="BNCC" /></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!----- //End-header---->
+			<!---- about us ---->
+			<div class="aboutus">
+				<div class="container">
+					<h2>ABOUT<br/>BNCC</h2>
+					<span> </span>
+					<div class="col-md-6 aboutus-left">
+						<p>The Buffalo Niagara Cricket Club is the largest cricketing fraternity in the Buffalo-Niagara Region. It was founded in the fall of 2014 by several amateur cricketers in the community who were interested in fostering leather ball cricket in the region. </p>
+					</div>
+					<div class="col-md-6 aboutus-right">
+						<p>The club would like to thank all sponsors for their support during the current season. With their generous support we are building facilities and the shaping the future of the club. Our primary aim is to continue to build a dynamic and successful club from Youth Development right through to the 1st XI</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<!---- about us ---->
+			<!---- QUOTE ---->
+			<div class="quote text-center">
+				<div class="container">
+					<p>&nbsp;</p>
+				</div>
+			</div>
+			<!---- //QUOTE ---->
+			<!---- WORKS ---->
+			<div id="work" class="works">
+				<div class="container">
+					<h2>OUR<br/>SPONSORS</h2>
+					<span> </span>
+				</div>
+				<!---- partners ---->
+				<div class="partners">
+					<!----sreen-gallery-cursual---->
+						<div class="sreen-gallery-cursual">
+							 <!-- requried-jsfiles-for owl -->
+							<link href="css/owl.carousel.css" rel="stylesheet">
+							    <script src="js/owl.carousel.js"></script>
+							        <script>
+							    $(document).ready(function() {
+							      $("#owl-demo").owlCarousel({
+							        items : 5,
+							        lazyLoad : true,
+							        autoPlay : true,
+							        navigation : true,
+							        navigationText :  false,
+							        pagination : false,
+							      });
+							    });
+							    </script>
+							 <!-- //requried-jsfiles-for owl -->
+							 <!-- start content_slider -->
+							 <div class="container">
+						       <div id="owl-demo" class="owl-carousel">
+					                <div class="item">
+					                	<img class="lazyOwl" data-src="images/screen1.jpg" alt="screen-name">
+					                	<label>PROJECT TITLE</label>
+					                </div>
+					                <div class="item">
+					                	<img class="lazyOwl" data-src="images/screen2.jpg" alt="screen-name">
+					                	<label>PROJECT TITLE</label>
+					                </div>
+					                <div class="item">
+					                	<img class="lazyOwl" data-src="images/screen3.jpg" alt="screen-name">
+					                	<label>PROJECT TITLE</label>
+					                </div>
+					                <div class="item">
+					                	<img class="lazyOwl" data-src="images/screen4.jpg" alt="screen-name">
+					                	<label>PROJECT TITLE</label>
+					                </div>
+					                <div class="item">
+					                	<img class="lazyOwl" data-src="images/screen5.jpg" alt="screen-name">
+					                	<label>PROJECT TITLE</label>
+					                </div>
+					                <div class="item">
+					                	<img class="lazyOwl" data-src="images/screen1.jpg" alt="screen-name">
+					                	<label>PROJECT TITLE</label>
+					                </div>
+					                <div class="item">
+					                	<img class="lazyOwl" data-src="images/screen2.jpg" alt="screen-name">
+					                	<label>PROJECT TITLE</label>
+					                </div>
+					                <div class="item">
+					                	<img class="lazyOwl" data-src="images/screen3.jpg" alt="screen-name">
+					                	<label>PROJECT TITLE</label>
+					                </div>
+				              </div>
+							</div>
+						<!--//sreen-gallery-cursual---->
+				</div>
+			</div>
+			</div>
+			<div class="quote text-center">
+				<div class="container">
+				<p>&nbsp;</p>
+				</div>
+			</div>
+			<!---- CONTACT ----->
+			<div id="contact" class="contact"> 
+				<div class="container">
+					<h2>WAYS TO<br/>CONTACT US</h2>
+					<span> </span>		
+					<div class="clearfix"><br></div>					
+					<div class="social-share">
+						<ul class="unstyled-list list-inline">
+							<li><a class="facebook" href="https://www.facebook.com/pages/Buffalo-Niagara-Cricket-Club/1532886410330880"><span> </span></a></li>
+							<li><a class="twitter" href="#"><span> </span></a></li>
+							<li><a class="googlepluse" href="#"><span> </span></a></li>
+							<div class="clearfix"> </div>
+						</ul>
+					</div>
+				<!----contact-grids---->
+				<div class="contact-grids">
+					<div class="col-md-6 contact-left">
+						<div class="address">
+						<label>Amol Salunkhe</label>
+						<label>716.984.8835</label>
+						<label>amolsalunkhe@gmail.com</label>
+						</div>
+					</div>
+					<div class="col-md-6 contact-right">
+						<div class="address">
+							<label>Amar Narisetty</label>
+							<label>+1 (234) 5678901</label>
+							<label>amar.narisetty@gmail.com</label>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				</div>
+			</div>
+			<!---- CONTACT ----->
+			<!----contact-map---->
+			<div class="contact-map">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d186873.4739356196!2d-78.92876044726552!3d42.95935322103775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1420046748268" width="600" height="450" frameborder="0" style="border:0"></iframe>
+				<label>WE'ER HERE</label>
+			</div>
+			<!----contact-map---->
+			<div class="copy-right text-center">
+				<div class="container">
+					<p>Template by Amol Salunkhe</p>
+					<label>Copyright 2014. All rights reserved.</label>
+								<script type="text/javascript">
+									$(document).ready(function() {
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+									<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	
+				</div>
+			</div>
+	</body>
+</html>
+
